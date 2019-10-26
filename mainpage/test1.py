@@ -5,15 +5,11 @@ def test_success():
     assert True
 
 
-def test_failure():
-    """this test fails"""
-    assert False
+def test_success2():
+    """this test succeeds"""
+    assert True
 
 
-def test_skip():
-    """this test is skipped"""
-    pytest.skip('for a reason!')
-
-
-def test_broken():
-    raise Exception('oops')
+def test_success3():
+    """this test succeeds"""
+    assert True
